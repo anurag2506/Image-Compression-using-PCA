@@ -29,11 +29,11 @@ The difference between the 2 tables is the value of variance. The variance being
   **Key Concepts:**
 </h4>
 <p>
-1. **Dimensionality Reduction:** PCA aims to find a lower-dimensional space that captures the maximum variance in the data. Think of it as finding the most informative directions (axes) in your data and projecting the data points onto those directions.
-2. **Principal Components (PCs):** These are the new variables created by PCA. They are uncorrelated (meaning no redundancy) and ordered by their importance (variance captured). The first PC captures the most variance, the second captures the remaining most variance, and so on.
+1. **Dimensionality Reduction:** PCA aims to find a lower-dimensional space that captures the maximum variance in the data. Think of it as finding the most informative directions (axes) in your data and projecting the data points onto those directions.<br>
+2. **Principal Components (PCs):** These are the new variables created by PCA. They are uncorrelated (meaning no redundancy) and ordered by their importance (variance captured). The first PC captures the most variance, the second captures the remaining most variance, and so on.<br>
 3. **Eigenvectors and Eigenvalues:** PCA relies on linear algebra concepts like eigenvectors and eigenvalues. Eigenvectors represent the directions (axes) of the PCs, and eigenvalues represent the amount of variance captured by each PC.
 
-Many machine learning algorithms struggle with high-dimensional data. PCA can be used as a preprocessing step to reduce dimensionality and improve the performance of these algorithms.
+Many machine learning algorithms struggle with high-dimensional data. PCA can be used as a preprocessing step to reduce dimensionality and improve the performance of these algorithms.<br>
 Since PCAs form these new variables which are linear combinations of existing variables, for ML features having strong non-linear relations, PCA might not be the best choice
 </p>
 
