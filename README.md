@@ -12,12 +12,16 @@ PCA understands which part of our data is important only via calculating varianc
 
 - Variance can mathematically quantify the amount of information embedded within the data
 - The greater the variance, the more the information. Vice versa.
-
+  
+  ![image](https://github.com/anurag2506/Image-Compression-using-PCA/assets/142666721/4d8bd104-c667-4843-a524-9f9d81488bd8)
+  
 How does variance associate with information?
 
 Eg. 
 
 Suppose that we are playing a guessing game with our friends. The game is simple. Our friends would cover their faces and we need to guess who’s who based solely on their height. Being the good friends that we are, we remember how tall everyone is.</p>
-![image](https://github.com/anurag2506/Image-Compression-using-PCA/assets/142666721/c7bf5ff8-5346-4feb-b974-aca00d660a2a)
+![image](https://github.com/anurag2506/Image-Compression-using-PCA/assets/142666721/50131b47-a186-4700-89ff-f60809beb1b7)
+![image](https://github.com/anurag2506/Image-Compression-using-PCA/assets/142666721/253d4e07-16af-41f2-b5d8-ed2c9e3a3dd8)
 
+The difference between the 2 tables is the value of variance. The variance being high in the first table increases the chances of randomly guessing and getting the correct person. But as the variance decreases as in the 2nd table, our chances go down
 
