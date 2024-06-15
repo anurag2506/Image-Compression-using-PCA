@@ -23,5 +23,14 @@ Suppose that we are playing a guessing game with our friends. The game is simple
 ![image](https://github.com/anurag2506/Image-Compression-using-PCA/assets/142666721/50131b47-a186-4700-89ff-f60809beb1b7)
 ![image](https://github.com/anurag2506/Image-Compression-using-PCA/assets/142666721/253d4e07-16af-41f2-b5d8-ed2c9e3a3dd8)
 
-The difference between the 2 tables is the value of variance. The variance being high in the first table increases the chances of randomly guessing and getting the correct person. But as the variance decreases as in the 2nd table, our chances go down
+The difference between the 2 tables is the value of variance. The variance being high in the first table increases the chances of randomly guessing and getting the correct person. But as the variance decreases as in the 2nd table, our chances go down.
+
+
+<h3>Dependencies:</h3>
+<p>
+1. sklearn
+2. sci-kit learn
+3. matplotlib
+4. OpenCV
+</p>
 
